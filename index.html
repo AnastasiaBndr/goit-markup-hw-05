@@ -559,29 +559,29 @@
           <div class="form-container comment-container">
             <label class="modal-label" for="user-comment">Comment</label>
             <textarea
+              id="user-comment"
               name="user-comment"
               class="modal-comment"
               placeholder="Text input"
             ></textarea>
           </div>
           <div class="checkbox-container">
-            <div class="icon-and-input">
-              <input
-                type="checkbox"
-                class="checkbox"
-                id="user-privacy"
-                name="user-comment-text"
-                required
-              />
-              <label class="checkbox-label" for="user-privacy"
-                ><span class="checkbox-text"
-                  ><svg class="bird-icon" width="10" height="8">
-                    <use href="./images/icons.svg#icon-bird"></use></svg
-                  >I accept the terms and conditions of the
-                  <a class="modal-privacy-link link" href="">Privacy Policy</a>
-                </span></label
-              >
-            </div>
+            <input
+              type="checkbox"
+              class="checkbox"
+              id="user-privacy"
+              name="user-privacyt"
+              required
+            />
+            <label class="checkbox-label" for="user-privacy">
+              <span class="checkbox-icon-container">
+                <svg class="bird-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-bird"></use>
+                </svg> </span
+              >I accept the terms and conditions of the
+              <a class="modal-privacy-link link" href=""
+                >Privacy Policy</a
+              ></label>
           </div>
           <button type="submit" class="hero-button modal-button">Send</button>
         </form>
