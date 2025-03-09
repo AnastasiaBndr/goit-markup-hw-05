@@ -1014,7 +1014,7 @@ ul.list .address-item:last-child {
 
 }
 
-.checkbox:checked + .checkbox-label .checkbox-icon-container{
+input[type="checkbox"] + .checkbox-label .checkbox-icon-container{
   background-color:var(--hover-and-focus-color);
   border: none;
   fill:var(--small-text-dark-theme-color);
