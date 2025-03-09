@@ -657,6 +657,7 @@ ul.list .address-item:last-child {
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   width: 408px;
   min-height: 584px;
   background-color: #fcfcfc;
@@ -690,8 +691,8 @@ ul.list .address-item:last-child {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop-info-wrapper button:hover,
-.backdrop-info-wrapper button:focus {
+.data-model-close-button:hover,
+.data-model-close-button:focus {
   background-color: var(--hover-and-focus-color);
   border: none;
 }
@@ -856,7 +857,7 @@ ul.list .address-item:last-child {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0;
   background: #f3f3f3;
 }
@@ -866,13 +867,11 @@ ul.list .address-item:last-child {
   width: 16px;
   height: 16px;
   border-radius: 2px;
-  background: var(--hover-and-focus-color);
+  background-color: var(--hover-and-focus-color);
 }
 
 .bird-icon {
   position: absolute;
-  left: 3px;
-  top: 7px;
   fill: var(--small-text-dark-theme-color);
 }
 .checkbox-label {
@@ -884,6 +883,7 @@ ul.list .address-item:last-child {
   line-height: 1.17;
   color: var(--border-color);
 }
+
 
 .modal-button {
   margin-top: 24px;
@@ -1011,7 +1011,7 @@ ul.list .address-item:last-child {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  margin-right: 8px;
 }
 
 input[type="checkbox"]:checked + .checkbox-label .checkbox-icon-container{
