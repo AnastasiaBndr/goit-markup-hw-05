@@ -810,8 +810,8 @@ ul.list .address-item:last-child {
 .modal-input:focus{
   border-color: var(--blue-button-and-logo-color)
 }
-.modal-input:focus + .modal-icon,
-.modal-input:hover + .modal-icon {
+
+.modal-input:focus + .modal-icon{
   fill: var(--blue-button-and-logo-color);
 }
 .modal-comment:focus{
