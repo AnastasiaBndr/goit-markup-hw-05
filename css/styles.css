@@ -911,7 +911,6 @@ ul.list .address-item:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -950,8 +949,7 @@ ul.list .address-item:last-child {
 }
 .footer-icon {
   fill: var(--background-color);
-  position: absolute;
-  left: 117px;
+  margin-left:16px;
   top: 8px;
 }
 .modal-privacy-link {
