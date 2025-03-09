@@ -808,16 +808,11 @@ ul.list .address-item:last-child {
 .modal-input:focus{
   border-color: var(--blue-button-and-logo-color)
 }
-.modal-icon:focus,
-.modal-icon:hover {
-  fill: var(--blue-button-and-logo-color);
-}
 .modal-input:focus + .modal-icon,
 .modal-input:hover + .modal-icon {
   fill: var(--blue-button-and-logo-color);
 }
-.modal-comment:focus,
-.modal-comment:hover{
+.modal-comment:focus{
   border-color: var(--blue-button-and-logo-color)
 }
 .modal-label:focus,
