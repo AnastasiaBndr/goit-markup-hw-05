@@ -755,7 +755,7 @@ ul.list .address-item:last-child {
 .modal-icon {
   position: absolute;
   left: 16px;
-  top: 55%;
+  top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1014,7 +1014,7 @@ ul.list .address-item:last-child {
 
 }
 
-.checkbox:checked + span{
+.checkbox:checked + checkbox-label.span{
   background-color:var(--hover-and-focus-color);
   border: none;
   fill:var(--small-text-dark-theme-color);
