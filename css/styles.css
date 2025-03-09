@@ -876,6 +876,7 @@ ul.list .address-item:last-child {
 
   font-size: 12px;
   letter-spacing: 0.04em;
+  line-height: 1.17;
   color: var(--border-color);
 }
 
@@ -993,4 +994,23 @@ ul.list .address-item:last-child {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-icon-container{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  width:16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.checkbox:checked + span{
+  background-color:var(--hover-and-focus-color);
+  border: none;
+  fill:var(--small-text-dark-theme-color);
 }
