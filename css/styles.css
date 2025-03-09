@@ -693,11 +693,13 @@ ul.list .address-item:last-child {
 .data-model-close-button:hover {
   background-color: var(--hover-and-focus-color);
   border: none;
+  fill: #f4f4fd;
 }
 
 .data-model-close-button:focus {
   background-color: var(--hover-and-focus-color);
   border: none;
+  fill: #f4f4fd;
 }
 
 .data-model-close-button:hover .bird-icon{
