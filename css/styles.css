@@ -1014,7 +1014,6 @@ ul.list .address-item:last-child {
 }
 
 .checkbox-icon-container{
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
